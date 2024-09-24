@@ -41,3 +41,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ApiKey記述先を除外
+/android/app/src/main/res/values/strings.xml
+/ios/Runner/AppDelegate.swift
+/lib/api_key.dart

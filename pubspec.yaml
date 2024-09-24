@@ -33,6 +33,15 @@ dependencies:
 
   google_maps_flutter: ^2.6.0
   geolocator: ^11.0.0
+  hooks_riverpod: ^2.5.2
+  flutter_hooks: ^0.20.5
+  freezed_annotation: ^2.4.4
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  http: ^1.2.2
+  google_places_flutter: ^2.0.9
+  widget_to_marker: ^1.0.6
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:
@@ -44,6 +53,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,6 +71,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/spots.json
+    - assets/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

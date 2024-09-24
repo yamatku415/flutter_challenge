@@ -61,9 +61,9 @@ Flutterで充電スポットマップ画面を作成してください。
 - [geolocator](https://pub.dev/packages/geolocator)
 
 ### 充電スポットデータ
-マップに表示する充電スポットデータは [charger_spots_repository.dart](lib/charger_spots_repository.dart) を使用して取得してください
+マップに表示する充電スポットデータは [charger_spots_repository.dart](lib/repository/charger_spots_repository.dart) を使用して取得してください
 
-- 充電スポット情報の詳細は [charger_spot.dart](lib/charger_spot.dart) のドキュメントコメントを参照してください
+- 充電スポット情報の詳細は [charger_spot.dart](lib/model/charger_spot.dart) のドキュメントコメントを参照してください
 - 取得できる充電スポットは関東エリアにのみ存在しています
   
 

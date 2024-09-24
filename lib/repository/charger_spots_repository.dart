@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_map_app/charger_spot.dart';
+import 'package:flutter_map_app/model/charger_spot.dart';
 
 /// 充電スポット取得のステータス
 enum GetChargerSpotsStatus {
